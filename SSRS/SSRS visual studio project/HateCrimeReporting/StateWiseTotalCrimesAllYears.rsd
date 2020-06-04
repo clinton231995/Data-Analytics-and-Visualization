@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>DataSource1</DataSourceReference>
+      <CommandText>SELECT count(f.Incident_ID) AS [Number of crimes],s.State_Name
+
+
+FROM Hate_Crime_Incident_Fact f 
+INNER JOIN State_Dim s
+
+ON f.State_Id = s.State_Id
+
+--INNER JOIN  Calendar_Dim c
+
+--ON f.CalendarKey = c.CalendarKey
+
+GROUP BY s.State_Name</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="Number_of_crimes">
+        <DataField>Number of crimes</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="State_Name">
+        <DataField>State_Name</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

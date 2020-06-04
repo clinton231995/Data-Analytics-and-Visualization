@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "HateCrimeReporting", "HateCrimeReporting.rptproj", "{5573737F-B748-4DEF-B6AC-BA00FF7F9C5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5573737F-B748-4DEF-B6AC-BA00FF7F9C5A}.Debug|Default.ActiveCfg = Debug
+		{5573737F-B748-4DEF-B6AC-BA00FF7F9C5A}.Debug|Default.Build.0 = Debug
+		{5573737F-B748-4DEF-B6AC-BA00FF7F9C5A}.Debug|Default.Deploy.0 = Debug
+		{5573737F-B748-4DEF-B6AC-BA00FF7F9C5A}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{5573737F-B748-4DEF-B6AC-BA00FF7F9C5A}.DebugLocal|Default.Build.0 = DebugLocal
+		{5573737F-B748-4DEF-B6AC-BA00FF7F9C5A}.Release|Default.ActiveCfg = Release
+		{5573737F-B748-4DEF-B6AC-BA00FF7F9C5A}.Release|Default.Build.0 = Release
+		{5573737F-B748-4DEF-B6AC-BA00FF7F9C5A}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A01AA2C-6E0B-4952-8D05-D7C9FBEB9637}
+	EndGlobalSection
+EndGlobal
